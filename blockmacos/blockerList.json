@@ -1,0 +1,210 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "google.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "youtube.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "byte.co"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "facebook.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "webtoons.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "crunchyroll.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "wikipedia.org"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "live.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "blogspot.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "instagram.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "twitch.tv"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "twitter.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "tumblr.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "pinterest.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "pornhub.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "amazon.co.jp"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "wionews.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "google.co.jp"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "imgur.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "medium.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "dailymotion.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "bbc.co.uk"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "bbc.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "quora.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "indeed.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "jw.org"
+        }
+    },
+]

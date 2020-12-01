@@ -13,7 +13,56 @@
 		08A5890225769C2A00767560 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A588ED25769C2700767560 /* ContentView.swift */; };
 		08A5890325769C2A00767560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A588EE25769C2A00767560 /* Assets.xcassets */; };
 		08A5890425769C2A00767560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A588EE25769C2A00767560 /* Assets.xcassets */; };
+		08A5891625769CAC00767560 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A5891525769CAB00767560 /* Cocoa.framework */; };
+		08A5891925769CAC00767560 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A5891825769CAC00767560 /* blockerList.json */; };
+		08A5891B25769CAC00767560 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5891A25769CAC00767560 /* ContentBlockerRequestHandler.swift */; };
+		08A5892025769CAC00767560 /* blockmacos.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 08A5891325769CAB00767560 /* blockmacos.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		08A5892F25769CC300767560 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 08A5892E25769CC300767560 /* blockerList.json */; };
+		08A5893125769CC300767560 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5893025769CC300767560 /* ContentBlockerRequestHandler.swift */; };
+		08A5893525769CC300767560 /* blockios.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 08A5892C25769CC300767560 /* blockios.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A5891E25769CAC00767560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A588E725769C2600767560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A5891225769CAB00767560;
+			remoteInfo = blockmacos;
+		};
+		08A5893325769CC300767560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A588E725769C2600767560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A5892B25769CC300767560;
+			remoteInfo = blockios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08A5892425769CAC00767560 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				08A5892025769CAC00767560 /* blockmacos.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A5893925769CC300767560 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				08A5893525769CC300767560 /* blockios.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08A588EC25769C2700767560 /* caquetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caquetaApp.swift; sourceTree = "<group>"; };
@@ -24,6 +73,16 @@
 		08A588FB25769C2A00767560 /* caqueta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caqueta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A588FD25769C2A00767560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08A588FE25769C2A00767560 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		08A5891325769CAB00767560 /* blockmacos.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = blockmacos.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A5891525769CAB00767560 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		08A5891825769CAC00767560 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		08A5891A25769CAC00767560 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		08A5891C25769CAC00767560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A5891D25769CAC00767560 /* blockmacos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = blockmacos.entitlements; sourceTree = "<group>"; };
+		08A5892C25769CC300767560 /* blockios.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = blockios.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A5892E25769CC300767560 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		08A5893025769CC300767560 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		08A5893225769CC300767560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +100,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08A5891025769CAB00767560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A5891625769CAC00767560 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A5892925769CC300767560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -50,6 +124,9 @@
 				08A588EB25769C2700767560 /* Shared */,
 				08A588F525769C2A00767560 /* iOS */,
 				08A588FC25769C2A00767560 /* macOS */,
+				08A5891725769CAC00767560 /* blockmacos */,
+				08A5892D25769CC300767560 /* blockios */,
+				08A5891425769CAB00767560 /* Frameworks */,
 				08A588F425769C2A00767560 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +146,8 @@
 			children = (
 				08A588F325769C2A00767560 /* caqueta.app */,
 				08A588FB25769C2A00767560 /* caqueta.app */,
+				08A5891325769CAB00767560 /* blockmacos.appex */,
+				08A5892C25769CC300767560 /* blockios.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +169,35 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		08A5891425769CAB00767560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08A5891525769CAB00767560 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08A5891725769CAC00767560 /* blockmacos */ = {
+			isa = PBXGroup;
+			children = (
+				08A5891825769CAC00767560 /* blockerList.json */,
+				08A5891A25769CAC00767560 /* ContentBlockerRequestHandler.swift */,
+				08A5891C25769CAC00767560 /* Info.plist */,
+				08A5891D25769CAC00767560 /* blockmacos.entitlements */,
+			);
+			path = blockmacos;
+			sourceTree = "<group>";
+		};
+		08A5892D25769CC300767560 /* blockios */ = {
+			isa = PBXGroup;
+			children = (
+				08A5892E25769CC300767560 /* blockerList.json */,
+				08A5893025769CC300767560 /* ContentBlockerRequestHandler.swift */,
+				08A5893225769CC300767560 /* Info.plist */,
+			);
+			path = blockios;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,10 +208,12 @@
 				08A588EF25769C2A00767560 /* Sources */,
 				08A588F025769C2A00767560 /* Frameworks */,
 				08A588F125769C2A00767560 /* Resources */,
+				08A5893925769CC300767560 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				08A5893425769CC300767560 /* PBXTargetDependency */,
 			);
 			name = "caqueta (iOS)";
 			productName = "caqueta (iOS)";
@@ -117,15 +227,51 @@
 				08A588F725769C2A00767560 /* Sources */,
 				08A588F825769C2A00767560 /* Frameworks */,
 				08A588F925769C2A00767560 /* Resources */,
+				08A5892425769CAC00767560 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				08A5891F25769CAC00767560 /* PBXTargetDependency */,
 			);
 			name = "caqueta (macOS)";
 			productName = "caqueta (macOS)";
 			productReference = 08A588FB25769C2A00767560 /* caqueta.app */;
 			productType = "com.apple.product-type.application";
+		};
+		08A5891225769CAB00767560 /* blockmacos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A5892125769CAC00767560 /* Build configuration list for PBXNativeTarget "blockmacos" */;
+			buildPhases = (
+				08A5890F25769CAB00767560 /* Sources */,
+				08A5891025769CAB00767560 /* Frameworks */,
+				08A5891125769CAB00767560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blockmacos;
+			productName = blockmacos;
+			productReference = 08A5891325769CAB00767560 /* blockmacos.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		08A5892B25769CC300767560 /* blockios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A5893625769CC300767560 /* Build configuration list for PBXNativeTarget "blockios" */;
+			buildPhases = (
+				08A5892825769CC300767560 /* Sources */,
+				08A5892925769CC300767560 /* Frameworks */,
+				08A5892A25769CC300767560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blockios;
+			productName = blockios;
+			productReference = 08A5892C25769CC300767560 /* blockios.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -140,6 +286,12 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					08A588FA25769C2A00767560 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					08A5891225769CAB00767560 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					08A5892B25769CC300767560 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -159,6 +311,8 @@
 			targets = (
 				08A588F225769C2A00767560 /* caqueta (iOS) */,
 				08A588FA25769C2A00767560 /* caqueta (macOS) */,
+				08A5891225769CAB00767560 /* blockmacos */,
+				08A5892B25769CC300767560 /* blockios */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +331,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				08A5890425769C2A00767560 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A5891125769CAB00767560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A5891925769CAC00767560 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A5892A25769CC300767560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A5892F25769CC300767560 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +371,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08A5890F25769CAB00767560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A5891B25769CAC00767560 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A5892825769CC300767560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A5893125769CC300767560 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A5891F25769CAC00767560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A5891225769CAB00767560 /* blockmacos */;
+			targetProxy = 08A5891E25769CAC00767560 /* PBXContainerItemProxy */;
+		};
+		08A5893425769CC300767560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A5892B25769CC300767560 /* blockios */;
+			targetProxy = 08A5893325769CC300767560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		08A5890525769C2A00767560 /* Debug */ = {
@@ -318,6 +517,7 @@
 		08A5890825769C2B00767560 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -340,6 +540,7 @@
 		08A5890925769C2B00767560 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -363,6 +564,7 @@
 		08A5890B25769C2B00767560 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
@@ -387,6 +589,7 @@
 		08A5890C25769C2B00767560 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
@@ -405,6 +608,95 @@
 				PRODUCT_NAME = caqueta;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		08A5892225769CAC00767560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = blockmacos/blockmacos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3865YC2YEY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = blockmacos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderrohrig.caqueta.blockmacos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		08A5892325769CAC00767560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = blockmacos/blockmacos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3865YC2YEY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = blockmacos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderrohrig.caqueta.blockmacos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		08A5893725769CC300767560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3865YC2YEY;
+				INFOPLIST_FILE = blockios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderrohrig.caqueta.blockios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08A5893825769CC300767560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3865YC2YEY;
+				INFOPLIST_FILE = blockios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderrohrig.caqueta.blockios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -434,6 +726,24 @@
 			buildConfigurations = (
 				08A5890B25769C2B00767560 /* Debug */,
 				08A5890C25769C2B00767560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A5892125769CAC00767560 /* Build configuration list for PBXNativeTarget "blockmacos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A5892225769CAC00767560 /* Debug */,
+				08A5892325769CAC00767560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A5893625769CC300767560 /* Build configuration list for PBXNativeTarget "blockios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A5893725769CC300767560 /* Debug */,
+				08A5893825769CC300767560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
